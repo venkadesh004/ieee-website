@@ -70,13 +70,14 @@ const Navbar = () => {
               Ideathon
             </Link>
             <Link
-              to="/register"
+              to="https://forms.gle/FCJCjsTx9Ng7bG44A"
+              target="_blank"
               className={currentPage == 4 ? "font-normal" : "font-light"}
               onClick={() => {
                 sessionStorage.setItem("currentPage", 4);
               }}
             >
-              Registeration
+              Registration
             </Link>
             <Link
               to="/contact"
@@ -142,13 +143,14 @@ const Navbar = () => {
               Hackathon
             </Link>
             <Link
-              to="/register"
+              target="_blank"
+              to="https://forms.gle/FCJCjsTx9Ng7bG44A"
               className={currentPage == 4 ? "font-normal" : "font-light"}
               onClick={() => {
                 sessionStorage.setItem("currentPage", 4);
               }}
             >
-              Registeration
+              Registration
             </Link>
             <Link
               to="/contact"
