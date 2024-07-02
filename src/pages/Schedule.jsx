@@ -18,6 +18,7 @@ function Schedule() {
       heading={"Summer School Schedule"}
       content={element}
       requiredMap={false}
+      removeHeadingCSS={false}
     />
   );
 }

@@ -16,7 +16,7 @@ const Contact = () => {
     </div>
   );
 
-  return <BackgroundComponent content={element} heading={"Contact"} page={5} requiredMap={true} />;
+  return <BackgroundComponent content={element} heading={"Contact"} page={5} requiredMap={true} removeHeadingCSS={false} />;
 };
 
 export default Contact;
