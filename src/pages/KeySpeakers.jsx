@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import BackgroundComponent from "../components/BackgroundComponent";
 import { useMediaQuery } from "@mui/material";
 
@@ -48,7 +48,7 @@ function KeySpeakers() {
 
   const content = (
     <div className="w-full flex flex-col items-center">
-      <div className={`${isMobileScreen ? "w-[100%]" : "w-[90%]"} mt-[0px]`}>
+      <div className={`${isMobileScreen ? "w-[100%]" : "w-[90%]"}`}>
         <SpeakerList title="External Speakers" speakers={speakers.external} />
         <SpeakerList title="Internal Speakers" speakers={speakers.internal} />
       </div>

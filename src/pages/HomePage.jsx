@@ -11,28 +11,28 @@ function HomePage() {
           isMobileScreen ? "text-[50px]" : "text-[20px]"
         }`}
       >
-        IEEE CIS - Summer School
+        IEEE CS Global Event
       </h1>
       <h2
         className={`text-white font-bold ${
           isMobileScreen ? "text-[30px]" : "text-[15px]"
         }`}
       >
-        Computational Intelligence Techniques for Engineering Applications
+        Generative AI: Unlocking Creativity and Automation
       </h2>
       <p
         className={`text-[#ff9900] font-bold ${
           isMobileScreen ? "text-[30px]" : "text-[15px]"
         }`}
       >
-        (Inclusive of Hackathon)
+        (Inclusive of Ideathon)
       </p>
       <p
         className={`text-[#ff9900] font-bold ${
           isMobileScreen ? "text-[30px]" : "text-[15px]"
         }`}
       >
-        17 - 21, June 2024
+        2 - 3, August 2024
       </p>
     </div>
   );
@@ -92,7 +92,7 @@ function HomePage() {
         } mt-[30px] flex flex-col items-center mb-[20px]`}
       >
         <h1 className="font-bold text-2xl">Last Date for Registration</h1>
-        <p className="font-bold text-3xl text-red-500">10 July 2024</p>
+        <p className="font-bold text-3xl text-red-500">30 July 2024</p>
       </div>
     </div>
   );
