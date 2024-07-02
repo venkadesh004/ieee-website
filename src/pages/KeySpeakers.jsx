@@ -48,7 +48,7 @@ function KeySpeakers() {
 
   const content = (
     <div className="w-full flex flex-col items-center">
-      <div className={`${isMobileScreen ? "w-[100%]" : "w-[90%]"}`}>
+      <div className={`${isMobileScreen ? "w-[70%]" : "w-[90%]"}`}>
         <SpeakerList title="External Speakers" speakers={speakers.external} />
         <SpeakerList title="Internal Speakers" speakers={speakers.internal} />
       </div>
@@ -59,7 +59,7 @@ function KeySpeakers() {
     <div>
       <BackgroundComponent
         content={content}
-        page={0}
+        page={1}
         requiredMap={false}
         heading={heading}
         removeHeadingCSS={true}

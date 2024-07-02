@@ -134,13 +134,13 @@ const Navbar = () => {
               Schedule
             </Link>
             <Link
-              to="/hackathon"
+              to="/ideathon"
               className={currentPage == 3 ? "font-normal" : "font-light"}
               onClick={() => {
                 sessionStorage.setItem("currentPage", 3);
               }}
             >
-              Hackathon
+              Ideathon
             </Link>
             <Link
               target="_blank"

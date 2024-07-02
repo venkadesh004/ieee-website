@@ -24,7 +24,7 @@ const BackgroundComponent = ({
           alt=""
           className="w-full bg-[#226E93] absolute top-0 left-0 z-5 overflow-y-hidden"
         />
-        <div className="absolute top-0 left-0 w-full h-full overflow-y-scroll">
+        <div className="absolute top-0 left-0 w-full h-full overflow-y-scroll ">
           <div
             className={`${
               !removeHeadingCSS
@@ -38,10 +38,10 @@ const BackgroundComponent = ({
             className={`w-full bg-white z-10 top-[300px] left-0 flex flex-col items-center`}
             style={{ minHeight: whiteHeight }}
           >
-            <div className="flex flex-col items-start">{content}</div>
+            <div className="flex flex-col items-start w-full">{content}</div>
             {requiredMap && (
-              <div className="mt-[20px]">
-                <Maps width={window.innerWidth - 30} height={"200px"} />
+              <div className="my-[50px]">
+                <Maps width={window.innerWidth - 30} height={"500px"} />
               </div>
             )}
           </div>
