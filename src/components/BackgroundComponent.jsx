@@ -40,8 +40,8 @@ const BackgroundComponent = ({
           >
             <div className="flex flex-col items-start">{content}</div>
             {requiredMap && (
-              <div>
-                <Maps />
+              <div className="mt-[20px]">
+                <Maps width={window.innerWidth - 30} height={"200px"} />
               </div>
             )}
           </div>
