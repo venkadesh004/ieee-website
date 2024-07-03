@@ -144,8 +144,7 @@ const Navbar = () => {
             </Link>
             <Link
               target="_blank"
-              to="https://for
-        content={content}ms.gle/FCJCjsTx9Ng7bG44A"
+              to="https://forms.gle/FCJCjsTx9Ng7bG44A"
               className={currentPage == 4 ? "font-normal" : "font-light"}
               onClick={() => {
                 sessionStorage.setItem("currentPage", 4);
