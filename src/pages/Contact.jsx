@@ -13,13 +13,12 @@ const Contact = () => {
       >
         <div className="flex flex-col items-start">
           <h1 className="underline">Workshop:</h1>
-          <p>Dr. P. Karthikeyan - 9677973740</p>
-          <p>Dr. A.M.Abirami - 9080524596</p>
+          <p>Dr. Raja Lavanya - 7094018728</p>
+          <p>Dr. K.Indira - 9488075169</p>
         </div>
         <div className="flex flex-col items-start mt-[30px]">
           <h1 className="underline">Ideathon:</h1>
-          <p>Dr.S.Karthiga - 8667261062</p>
-          <p>Ms.C.V.Nisha Angeline - 9842175694</p>
+          <p>Gokul B - 8508681941</p>
         </div>
       </div>
     </div>

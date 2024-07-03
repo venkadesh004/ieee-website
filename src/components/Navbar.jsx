@@ -101,7 +101,7 @@ const Navbar = () => {
         {!menuOpen && (
           <div className="flex items-center justify-center h-full">
             <img src={Logo} alt="" className="h-[90%]" />
-            <h1 className="text-2xl font-light ml-[10px]">CITEA</h1>
+            <h1 className="text-2xl font-light ml-[10px]">CSE</h1>
           </div>
         )}
         {!isMobileScreen && (
@@ -144,7 +144,8 @@ const Navbar = () => {
             </Link>
             <Link
               target="_blank"
-              to="https://forms.gle/FCJCjsTx9Ng7bG44A"
+              to="https://for
+        content={content}ms.gle/FCJCjsTx9Ng7bG44A"
               className={currentPage == 4 ? "font-normal" : "font-light"}
               onClick={() => {
                 sessionStorage.setItem("currentPage", 4);
