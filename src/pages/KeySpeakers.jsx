@@ -49,11 +49,22 @@ function KeySpeakers() {
   const content = (
     <div className="w-full flex flex-col items-center">
       <div className={`${isMobileScreen ? "w-[70%]" : "w-[90%]"}`}>
-        <SpeakerList title="External Speakers" speakers={speakers.external} />
-        <SpeakerList title="Internal Speakers" speakers={speakers.internal} />
+      <h1 className="text-center font-semibold text-[#226E93] text-2xl">
+        To be announced soon...
+      </h1>
       </div>
     </div>
   );
+
+  /*const content = (
+    <div className="w-full flex flex-col items-center">
+      <div className={`${isMobileScreen ? "w-[70%]" : "w-[90%]"}`}>
+        <SpeakerList title="External Speakers" speakers={speakers.external} />
+        <SpeakerList title="Internal Speakers" speakers={speakers.internal} />
+        <h1>To be announced soon...</h1>
+      </div>
+    </div>
+  );*/
 
   return (
     <div>

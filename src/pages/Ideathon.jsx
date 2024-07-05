@@ -79,13 +79,7 @@ function Ideathon() {
           Winners:
         </h1>
         <p className="text-[18px] mt-[5px]">
-          1st Prize: Rs 10,000
-        </p>
-        <p className="text-[18px] mt-[5px]">
-          2nd Prize: Rs 6,000
-        </p>
-        <p className="text-[18px] mt-[5px]">
-          3rd Prize: Rs 4,000
+          Will be provided with Prizes and Certificates.
         </p>
         <h1 className="text-xl text-[#226E93] font-semibold mt-[20px]">
           Participants:
