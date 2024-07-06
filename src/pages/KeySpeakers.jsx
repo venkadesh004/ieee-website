@@ -4,13 +4,7 @@ import { useMediaQuery } from "@mui/material";
 
 const speakers = {
   external: [
-    { name: 'Dr. M. Thangavel', affiliation: 'CIT, United Arab Emirates', profile: 'https://example.com/thangavel' },
-    { name: 'Dr. S. Sumitra', affiliation: 'IIST, Trivandrum', profile: 'https://example.com/sumitra' },
-    { name: 'Dr. Rajiv Ratn Shah', affiliation: 'IIIT Delhi', profile: 'https://example.com/shah' },
-    { name: 'Dr. S. Jaya Nirmala', affiliation: 'NIT Trichy', profile: 'https://example.com/nirmala' },
-    { name: 'Dr. E. Ramanujam', affiliation: 'NIT Silchar, Assam', profile: 'https://example.com/ramanujam' },
-    { name: 'Dr. A. Sheik Abdullah', affiliation: 'VIT Chennai', profile: 'https://example.com/abdullah' },
-    { name: 'Mr. M. Senthilkumar', affiliation: 'GDG, Madurai', profile: 'https://example.com/senthilkumar' },
+    { name: 'Dr. M. Sujithra', affiliation: 'CIT, Coimbatore', profile: 'https://www.cit.edu.in/faculty/msc-data-science-department/FAC6378312' },
   ],
   internal: [
     { name: 'Dr. S. Baskar',  affiliation: 'Professor & Dean (R&D) TCE', profile: 'https://example.com/baskar' },
@@ -46,25 +40,24 @@ function KeySpeakers() {
     </div>
   );
 
-  const content = (
+  /*const content = (
     <div className="w-full flex flex-col items-center">
       <div className={`${isMobileScreen ? "w-[70%]" : "w-[90%]"}`}>
       <h1 className="text-center font-semibold text-[#226E93] text-2xl">
         To be announced soon...
+        <SpeakerList title="Internal Speakers" speakers={speakers.internal} />
       </h1>
       </div>
     </div>
-  );
+  );*/
 
-  /*const content = (
+  const content = (
     <div className="w-full flex flex-col items-center">
       <div className={`${isMobileScreen ? "w-[70%]" : "w-[90%]"}`}>
-        <SpeakerList title="External Speakers" speakers={speakers.external} />
-        <SpeakerList title="Internal Speakers" speakers={speakers.internal} />
-        <h1>To be announced soon...</h1>
+        <SpeakerList title="Speakers" speakers={speakers.external} />
       </div>
     </div>
-  );*/
+  );
 
   return (
     <div>
