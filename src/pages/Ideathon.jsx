@@ -32,7 +32,7 @@ function Ideathon() {
         <h1 className="text-xl text-[#226E93] font-semibold mt-[20px]">
           Important Dates:
         </h1>
-        <p className="text-[18px] mt-[5px]">August 2&3, 2024</p>
+        <p className="text-[18px] mt-[5px]">September 13&14, 2024</p>
 
         <h1 className="text-xl text-[#226E93] font-semibold mt-[20px]">
           Timing:
