@@ -90,7 +90,7 @@ function Ideathon() {
         <Link
           className="bg-[#226E93] inline-block  w-fit mt-4 p-4  rounded-md text-white"
           target="_blank"
-          to="https://forms.gle/FCJCjsTx9Ng7bG44A"
+          to="https://forms.gle/MsCvywBpB2fTdrJJ6"
         >
           Register Now
         </Link>
