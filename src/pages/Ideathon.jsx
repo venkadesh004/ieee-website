@@ -1,5 +1,6 @@
 import BackgroundComponent from "../components/BackgroundComponent";
 import { useMediaQuery } from "@mui/material";
+import { Link } from "react-router-dom";
 function Ideathon() {
   const isMobileScreen = useMediaQuery("(min-width: 590px)");
 
@@ -32,12 +33,12 @@ function Ideathon() {
         <h1 className="text-xl text-[#226E93] font-semibold mt-[20px]">
           Important Dates:
         </h1>
-        <p className="text-[18px] mt-[5px]">September 13&14, 2024</p>
+        <p className="text-[18px] mt-[5px]">September 14, 2024</p>
 
         <h1 className="text-xl text-[#226E93] font-semibold mt-[20px]">
           Timing:
         </h1>
-        <p className="text-[18px] mt-[5px]">9:00 AM - 5:00 PM</p>
+        <p className="text-[18px] mt-[5px]">9:00 AM - 12:00 PM</p>
 
         <h1 className="text-xl text-[#226E93] font-semibold mt-[20px]">
           Location:
@@ -60,8 +61,7 @@ function Ideathon() {
         </p>
         <p className="text-[18px] mt-[5px]">
           &#x2022; The teams are expected to present innovative and
-          well-researched ideas in any field, not necessarily restricted to
-          material science and metallurgy.
+          well-researched ideas in the theme.
         </p>
         <p className="text-[18px] mt-[5px]">
           &#x2022; Everything is allowed in the presentation, including sound
@@ -87,6 +87,13 @@ function Ideathon() {
         <p className="text-[18px] mt-[5px]">
           Will be provided with Certificates of Participation.
         </p>
+        <Link
+          className="bg-[#226E93] inline-block  w-fit mt-4 p-4  rounded-md text-white"
+          target="_blank"
+          to="https://forms.gle/FCJCjsTx9Ng7bG44A"
+        >
+          Register Now
+        </Link>
       </div>
     </div>
   );
