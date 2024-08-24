@@ -5,10 +5,11 @@ import { useMediaQuery } from "@mui/material";
 const speakers = {
   external: [
     {
-      name: "Dr. M. Sujithra",
+      name: "Mr. Senthilkumar Murugesan",
       affiliation: "CIT, Coimbatore",
       profile:
-        "https://www.cit.edu.in/faculty/msc-data-science-department/FAC6378312",
+        "https://www.linkedin.com/in/senthilkumar-murugesan/",
+        bio: "Senthilkumar Murugesan is an accomplished entrepreneur, technology explorer, and mentor from Madurai, Tamilnadu, India. With a deep passion for leveraging technology to solve real-world problems, he has made significant innovations in wireless networks, defense, maternal healthcare, and safety solutions, holding over 10 patents. After starting his career as an engineer with global giants like Samsung and Qualcomm, Senthilkumar transitioned into entrepreneurship, founding two tech startups—Geomeo in urban infrastructure and JioVio in healthcare. His vision centers on building self-sustaining, technology-enabled communities by bridging the digital divide and empowering vulnerable populations, particularly women. Through his non-profit organization, MetooMentor, he has mentored over 1,000 young women in Madurai. A sought-after speaker and educator, Senthilkumar has delivered guest lectures at more than 80 institutions and has been recognized as one of India’s top technology explorers by Nasscom. He continues to contribute to the open-source ecosystem while exploring new avenues for innovation."
     },
   ],
   internal: [
@@ -53,7 +54,7 @@ const SpeakerList = ({ title, speakers }) => (
     <ul className="list-none p-0">
       {speakers.map((speaker, index) => (
         <li key={index} className="my-[10px]">
-          {index + 1}.{speaker.name}, {speaker.affiliation}{" "}
+          {speaker.name}, {speaker.affiliation}{" "}
           <a
             href={speaker.profile}
             className="text-[#61dafb]"
@@ -62,6 +63,8 @@ const SpeakerList = ({ title, speakers }) => (
           >
             Profile
           </a>
+          <br />
+          {speaker.bio}
         </li>
       ))}
     </ul>

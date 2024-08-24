@@ -92,7 +92,7 @@ function HomePage() {
         } mt-[30px] flex flex-col items-center mb-[20px]`}
       >
         <h1 className="font-bold text-2xl">Last Date for Registration</h1>
-        <p className="font-bold text-3xl text-red-500">30 August 2024</p>
+        <p className="font-bold text-3xl text-red-500">10th September 2024</p>
       </div>
     </div>
   );
