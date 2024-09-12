@@ -6,10 +6,24 @@ const speakers = {
   external: [
     {
       name: "Mr. Senthilkumar Murugesan",
-      affiliation: "CIT, Coimbatore",
+      affiliation: "Founder - JioVio Healthcare",
       profile:
         "https://www.linkedin.com/in/senthilkumar-murugesan/",
-        bio: "Senthilkumar Murugesan is an accomplished entrepreneur, technology explorer, and mentor from Madurai, Tamilnadu, India. With a deep passion for leveraging technology to solve real-world problems, he has made significant innovations in wireless networks, defense, maternal healthcare, and safety solutions, holding over 10 patents. After starting his career as an engineer with global giants like Samsung and Qualcomm, Senthilkumar transitioned into entrepreneurship, founding two tech startups—Geomeo in urban infrastructure and JioVio in healthcare. His vision centers on building self-sustaining, technology-enabled communities by bridging the digital divide and empowering vulnerable populations, particularly women. Through his non-profit organization, MetooMentor, he has mentored over 1,000 young women in Madurai. A sought-after speaker and educator, Senthilkumar has delivered guest lectures at more than 80 institutions and has been recognized as one of India’s top technology explorers by Nasscom. He continues to contribute to the open-source ecosystem while exploring new avenues for innovation."
+        bio: "Senthilkumar Murugesan, the founder of JioVioHealthcare, is a visionary entrepreneur and technology mentor from Madurai,India. With a strong engineering background and a specialization in Startup Engineering from StanfordUniversity, he has made notable contributions.Holding over 10 patents, Senthilkumar previously led global companies like Samsung and Qualcomm before launching successful startups likeGeomeo and JioVio."
+    },
+    {
+      name: "Vijay Sankar",
+      affiliation: "Data Scientist - Ericsson",
+      profile:
+        "https://www.linkedin.com/in/vijay-sankar-3a9937170/",
+        bio: "Vijay Sankar is aData Scientist at Ericsson and a graduate of Thiagarajar College of Engineering. Vijay has served as an evaluator and judge for the prestigious Smart IndiaHackathon - Software Edition’22.He is a dynamic and visionary professional, staying competitive in the ever-evolving global landscape."
+    },
+    {
+      name: "Nirmal Jeyavelraj",
+      affiliation: "Founder & Director Wizardlenz XR Studio(OPC) Private Limited",
+      profile:
+        "https://www.linkedin.com/in/nirmal-j/",
+        bio: "Nirmal Jeyavelraj is aUnityXRDeveloper with expertise inVirtual Reality (VR),AugmentedReality (AR), and ExtendedReality (XR) technologies.He has a strong background in developing immersive solutions for various industries, including metaverse applications and interactive experiences.Notably, he pioneered India's first Physical Metaverse MScCourse and has mentored over 350 students in the field.His work spans innovative projects likeAI-powered virtual reality experiences and augmented reality applications, making significant contributions to cutting-edge technology in immersive environments"
     },
   ],
   internal: [
@@ -54,7 +68,7 @@ const SpeakerList = ({ title, speakers }) => (
     <ul className="list-none p-0">
       {speakers.map((speaker, index) => (
         <li key={index} className="my-[10px]">
-          {speaker.name}, {speaker.affiliation}{" "}
+          <p className="font-bold">{speaker.name}</p>{speaker.affiliation}{" "}
           <a
             href={speaker.profile}
             className="text-[#61dafb]"

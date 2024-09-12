@@ -91,8 +91,15 @@ function HomePage() {
           isMobileScreen ? "w-[70%]" : "w-[90%]"
         } mt-[30px] flex flex-col items-center mb-[20px]`}
       >
-        <h1 className="font-bold text-2xl">Last Date for Registration</h1>
-        <p className="font-bold text-3xl text-red-500">10th September 2024</p>
+      </div>
+      <div className={`${
+          isMobileScreen ? "w-[70%]" : "w-[90%]"
+        } flex flex-col items-center mb-[20px]`}>
+        <button className="bg-[#226E93] text-white font-bold p-[10px] rounded-[5px]" onClick={() => {
+          window.open("https://forms.gle/FCJCjsTx9Ng7bG44A", "_blank");
+        }}>
+          Register Now
+        </button>
       </div>
     </div>
   );
